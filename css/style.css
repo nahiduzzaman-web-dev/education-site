@@ -1,0 +1,53 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-design{
+    background-color: #fff;
+}
+.navbar-design ul{
+    margin-top: 10px;
+}
+.navbar-design ul li a{
+    color: #FF8A00;
+    font-weight: 500;
+}
+.navbar-design ul li a:hover{
+    color: #00478F;
+}
+.explore{
+    color:#00478F;
+    font-weight: 600;
+}
+.logo{
+    color: #FF8A00;
+    font-weight: 600;
+}
+.contributor-btn{
+    background-image:linear-gradient(#FFC000, #FF8A00);
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 50px;
+    margin-right: 5px;
+}
+.contributor-btn:hover{
+    background-image: linear-gradient(#00478F, #00478F) !important;
+    color: #fff;
+    cursor: pointer;
+}
+.login-btn{
+    background-image:linear-gradient(#FFC000, #FF8A00);
+    border: none;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 50px;
+}
+.login-btn:hover{
+    background-image: linear-gradient(#00478F, #00478F) !important;
+    color: #fff;
+    cursor: pointer;
+}
