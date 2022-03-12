@@ -30,7 +30,7 @@ body{
     background-image:linear-gradient(#FFC000, #FF8A00);
     border: none;
     color: #fff;
-    padding: 10px 15px;
+    padding: 10px 25px;
     border-radius: 50px;
     margin-right: 5px;
 }
@@ -56,9 +56,11 @@ body{
 .banner{
     background-color: #ff8800c7;
     height: 80vh;
+    position: relative;
 }
 .banner-image{
 margin-top: -60px;
+position: absolute;
 }
 .banner-image img{
    width: 900px;
@@ -67,7 +69,7 @@ margin-top: -60px;
 .get-access-btn{
     border: none;
     padding: 10px 25px;
-    border-radius: 5px;
+    border-radius: 50px;
     color: #FF8A00;
     font-weight: 600;
 }
@@ -82,3 +84,21 @@ margin-top: -60px;
     
 }
 
+/* Hire */
+.hire-section{
+    margin-top: 150px;
+    background-color:  #FFF7DF;
+}
+.h-icon img{
+    width: 100px;
+}
+.hire-details{
+    color: #FF8A00;
+}
+.get-hired{
+    font-weight: bold;
+    font-size: 50px;
+}
+.discover-btn{
+
+}
