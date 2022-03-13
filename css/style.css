@@ -5,6 +5,33 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+/* All Button */
+.colorfulBtn{
+    background-image:linear-gradient(#FFC000, #FF8A00);
+    border: none;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 50px;
+    margin-right: 5px;
+}
+.colorfulBtn:hover{
+    background-image: linear-gradient(#00478F, #00478F) !important;
+    color: #fff;
+    cursor: pointer;
+}
+.whiteColor-btn{
+    border: none;
+    padding: 10px 25px;
+    border-radius: 50px;
+    color: #FF8A00;
+    font-weight: 600;
+}
+.whiteColor-btn:hover{
+    background-image: linear-gradient(#00478F, #00478F) !important;
+    color: #fff;
+}
+
+/* navigation header */
 .navbar-design{
     background-color: #fff;
 }
@@ -26,57 +53,23 @@ body{
     color: #FF8A00;
     font-weight: 600;
 }
-.contributor-btn{
-    background-image:linear-gradient(#FFC000, #FF8A00);
-    border: none;
-    color: #fff;
-    padding: 10px 25px;
-    border-radius: 50px;
-    margin-right: 5px;
-}
-.contributor-btn:hover{
-    background-image: linear-gradient(#00478F, #00478F) !important;
-    color: #fff;
-    cursor: pointer;
-}
-.login-btn{
-    background-image:linear-gradient(#FFC000, #FF8A00);
-    border: none;
-    color: #fff;
-    padding: 10px 25px;
-    border-radius: 50px;
-}
-.login-btn:hover{
-    background-image: linear-gradient(#00478F, #00478F) !important;
-    color: #fff;
-    cursor: pointer;
-}
+
 
 /* Banner */
 .banner{
-    background-color: #ff8800c7;
+    background-color: #FF8A00;
     height: 80vh;
     position: relative;
 }
 .banner-image{
-margin-top: -60px;
+margin-top: -10px;
 position: absolute;
 }
 .banner-image img{
    width: 900px;
    height: 650px;
 }
-.get-access-btn{
-    border: none;
-    padding: 10px 25px;
-    border-radius: 50px;
-    color: #FF8A00;
-    font-weight: 600;
-}
-.get-access-btn:hover{
-    background-image: linear-gradient(#00478F, #00478F) !important;
-    color: #fff;
-}
+
 .slider-change-icon{
     font-size: 25px;
     background-color: #fff;
@@ -236,4 +229,39 @@ position: absolute;
     text-decoration: none;
     cursor: pointer;
 }
-  
+
+/* courses */
+.courses nav ul li a{
+    color: #5C5C5C;
+    font-weight: 600;
+}
+.courses nav ul li a:hover{
+    color: #00478F !important;
+    
+}
+.courses nav ul li .active{
+    color: #00478F !important;
+}
+.card-body-design{
+    background-image: linear-gradient(#FFC000, #FF8A00);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+.courses-card{
+    position: relative;
+}
+.cardBtn{
+    position: absolute;
+    /* margin-left: 210px; */
+    border: none;
+    background-color: #FF8A00;
+    color: #fff;
+    padding: 5px 10px;
+    border-top-left-radius: 10px;
+    border-end-end-radius: 20px;
+
+}
+.more-courses a{
+    text-decoration: none;
+}
