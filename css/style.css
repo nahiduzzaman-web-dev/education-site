@@ -237,6 +237,7 @@ position: absolute;
 }
 .courses nav ul li a:hover{
     color: #00478F !important;
+    cursor: pointer;
     
 }
 .courses nav ul li .active{
@@ -265,3 +266,47 @@ position: absolute;
 .more-courses a{
     text-decoration: none;
 }
+
+/* member counter */
+.member-counter{
+    background-color: #FF8A00;
+}
+#count5306::after {
+    content: counter(count);
+    animation: counter 5s linear infinite alternate;
+    counter-reset: count 0;
+  }
+
+  @keyframes counter {
+    0% {
+      counter-increment: count 0;
+      counter-increment: count 2;
+    }
+    10% {
+      counter-increment: count 1;
+    }
+    20% {
+      counter-increment: count 2;
+    }
+    30% {
+      counter-increment: count 3;
+    }
+    40% {
+      counter-increment: count 4;
+    }
+    50% {
+      counter-increment: count 5;
+    }
+    60% {
+      counter-increment: count 6;
+    }
+    70% {
+      counter-increment: count 7;
+    }
+    80% {
+      counter-increment: count 8;
+    }
+    90% {
+      counter-increment: count 9;
+    }
+  }
