@@ -394,3 +394,22 @@ position: absolute;
 .carousel-control-prev{
     background-image: linear-gradient(#FFC000, #FF8A00) !important;
 }
+.indictor{
+    background-color: #FF8A00 !important;
+}
+
+/* price */
+.price-value{
+    font-size: 50px;
+    font-weight: 700;
+    color: #FF8A00;
+}
+.fa-circle-check{
+    color: #FF8A00;
+}
+.card-footer{
+    background-color: #FFC000 !important;
+}
+.cardHover:hover{
+   background-color: #00478F;
+}
