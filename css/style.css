@@ -371,3 +371,26 @@ position: absolute;
       counter-increment: count 9;
     }
   }
+
+/* Students Says */
+.carousel-item{
+    padding: 5% 15%; 
+}
+.carousel-item p{
+    font-style: italic;
+}
+.user-img{
+    width: 150px;
+    height: auto;
+}
+/* .carousel-control-next-icon,
+.carousel-control-prev-icon{
+    background-color: #FF8A00 !important;
+} */
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    background-color: #FF8A00;
+}
+.carousel-control-prev{
+    background-image: linear-gradient(#FFC000, #FF8A00) !important;
+}
