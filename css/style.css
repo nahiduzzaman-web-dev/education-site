@@ -1,10 +1,14 @@
 /* font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-
+* {
+            box-sizing: border-box;
+        }
 body{
     font-family: 'Poppins', sans-serif;
 }
-
+.section-headline{
+    color: #FF8A00;
+}
 /* All Button */
 .colorfulBtn{
     background-image:linear-gradient(#FFC000, #FF8A00);
@@ -231,17 +235,59 @@ position: absolute;
 }
 
 /* courses */
-.courses nav ul li a{
-    color: #5C5C5C;
+.row-section {
+    margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column-section */
+.row-section,
+.row-section>.column-section {
+    padding: 8px;
+}
+ /* Create three equal column-sections that floats next to each other */
+ .column-section {
+    float: left;
+    width: 25% !important;
+    display: none;
+    /* Hide all elements by default */
+}
+
+/* Clear floats after rows */
+.row-section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;
+}
+
+/* Style the buttons */
+.course-nav-btn {
+    border: none;
+    outline: none;
+    padding: 8px 25px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 50px;
     font-weight: 600;
 }
-.courses nav ul li a:hover{
-    color: #00478F !important;
-    cursor: pointer;
-    
+
+.course-nav-btn:hover {
+    background-color: #FF8A00;
+    color: #fff;
 }
-.courses nav ul li .active{
-    color: #00478F !important;
+
+.course-nav-btn.active {
+    background-color: #00478F;
+    color: white;
 }
 .card-body-design{
     background-image: linear-gradient(#FFC000, #FF8A00);
@@ -267,6 +313,21 @@ position: absolute;
     text-decoration: none;
 }
 
+.gallery-item.show{
+    animation: fadeIn 0.5s ease;
+    display: block;
+}
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.gallery-item.hide{
+    display: none;
+}
 /* member counter */
 .member-counter{
     background-color: #FF8A00;
