@@ -413,3 +413,57 @@ position: absolute;
 .cardHover:hover{
    background-color: #00478F;
 }
+/* footer */
+.facebook:hover{
+    color: #00478F;
+    cursor: pointer;
+}
+.twiter:hover{
+    cursor: pointer;
+    color: skyblue;
+}
+.insta:hover{
+    cursor: pointer;
+    color: #e95950;
+}
+.git:hover{
+    cursor: pointer;
+    columns: gray;
+}
+.youtube:hover{
+    cursor: pointer;
+    color: red;
+}
+.quicklines{
+    text-align: center;
+}
+.quick-menu{
+    display: flex;
+    flex-direction: column;
+}
+.quicklines a{
+    text-decoration: none;
+    color: white;
+   
+}
+.terms{
+    display: flex;
+    flex-direction: column;
+}
+.terms .terms-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.terms .terms-item a{
+    text-decoration: none;
+    color: #fff;
+}
+.policy a{
+    text-decoration: none;
+    color: #fff;
+}
+.bg-copyright{
+    background-color: #050203;
+}
